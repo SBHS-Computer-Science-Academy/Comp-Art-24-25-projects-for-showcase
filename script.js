@@ -4,7 +4,7 @@ function generateCard(names, imageName, altText, url)
     + names  
     + '</h5> <p class="card-text"> <a href="'
     + url 
-    + '"> <img src="images/' 
+    + '" target="_blank" rel="noopener noreferrer"> <img src="images/' 
     + imageName 
     + '" alt="'
     + altText
