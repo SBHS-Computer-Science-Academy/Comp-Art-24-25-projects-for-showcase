@@ -8,69 +8,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <title>Computational Art</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
+  
 </head>
 
 <body>
+    
   <img src="images/CSA_logo.png" alt="CS Academy logo" id="logo">
   
   <!-- Remember to change the title in the head element as well! -->
-  <h1>Computational Art<br>2024-2025<br>Student Projects</h1>
+  <h1>Computational Art<br>2023-2024<br>Student Projects</h1>
   <p>Click an image below to see the project.</p>
   <!--Create a responsive grid with 4 columns. Add more rows as needed.-->
-  <div class="container-fluid mt-3">
-    <div class="row">
-      <div class="col-md-3 p-3"">
-        <script type="text/javascript">
-          card = generateCard("Alex", "mason_jack_cooper.png", "music app", "Alex/index.html");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-      <div class="col-md-3 p-3"">
-        <script type="text/javascript">
-          card = generateCard("Henry, Jayden, and Nico", "mason_jack_cooper.png", "pirate ship dodger game", "HenryJaydenNico/index.html");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-      <div class="col-md-3 p-3">
-        <script type="text/javascript">
-          card = generateCard("Shae", "shae.png", "escape game", "Shae");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-      <div class="col-md-3 p-3">
-        <script type="text/javascript">
-          card = generateCard("Mason, Jack, and Cooper", "mason_jack_cooper.png", "platformer game", "https://replit.com/@ecs-23-24/Final-Project-Mason-Jack-Cooper");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3 p-3">
-        <script type="text/javascript">
-          card = generateCard("Mason, Jack, and Cooper", "mason_jack_cooper.png", "platformer game", "https://replit.com/@ecs-23-24/Final-Project-Mason-Jack-Cooper");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-      <div class="col-md-3 p-3">
-        <script type="text/javascript">
-          card = generateCard("Mason, Jack, and Cooper", "mason_jack_cooper.png", "platformer game", "https://replit.com/@ecs-23-24/Final-Project-Mason-Jack-Cooper");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-      <div class="col-md-3 p-3">
-        <script type="text/javascript">
-          card = generateCard("Mason, Jack, and Cooper", "mason_jack_cooper.png", "platformer game", "https://replit.com/@ecs-23-24/Final-Project-Mason-Jack-Cooper");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-      <div class="col-md-3 p-3">
-        <script type="text/javascript">
-          card = generateCard("Mason, Jack, and Cooper", "mason_jack_cooper.png", "platformer game", "https://replit.com/@ecs-23-24/Final-Project-Mason-Jack-Cooper");
-          document.currentScript.parentElement.innerHTML = card; //not elegant, but it works
-        </script>
-      </div>
-    </div>
+  <div class="container-fluid mt-3" id="grid">
+      <script src="script.js"></script>
   </div>
 </body>
 
