@@ -1,4 +1,3 @@
-
 var names = [
     "Alex",
     "Hassan, Steven, and Thomas",
