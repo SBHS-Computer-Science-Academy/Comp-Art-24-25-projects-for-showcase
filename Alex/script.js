@@ -62,7 +62,7 @@ function setup() {
    fill("pink")
    text("Left and right arrows \n to change albums",450, 312,30);
    fill("red")
-   text(" Up and down arrows \n no change pixelation",150, 500 ,30);
+   text(" Up and down arrows \n to change pixelation",150, 500 ,30);
 //text("Click here for tyler.  \nClick to pause or start the music.  \nLeft and right arrows to change albums.  \n Up and down arrows to change pixelation.", 300, 300); 
  
  
@@ -100,8 +100,10 @@ function keyPressed(){
 }
 
 function mousePressed() {
-    pixelize(albumlist[album], pixelSize);
-    changeAudio();
+	if (mouseButton != RIGHT) {
+    	pixelize(albumlist[album], pixelSize);
+    	changeAudio();
+    }
 }
 function stopAudio() {
     document.getElementById("audioPlayer").innerHTML = ""
