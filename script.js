@@ -1,8 +1,9 @@
 var names = [
     "Alex",
     ["Angelo and Xavi", "https://space-invader-game-12369487.codehs.me/index.html"],
-    "Ceci",
+    ["Ceci", "https://kxuntiwdzs-2909120183-lmdqptohah-t.codehs.me/index.html"],
     "Damien",
+    ["David", "https://ngfiyygvgr-2621267445-lmdqptohah-t.codehs.me/index.html"],
     "Hassan, Steven, and Thomas",
     "Hector",
     "Henry, Jayden, and Nico",
@@ -19,7 +20,7 @@ var names = [
     "Marvin",
     "Mason",
     "Nash",
-    "Nick",
+    ["Nick", “https://ayukgttkuq-2911604671-lmdqptohah-t.codehs.me/index.html”],
     "Noah",
     "Shae"
 ];
