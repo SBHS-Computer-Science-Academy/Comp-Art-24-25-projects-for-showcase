@@ -1,6 +1,6 @@
 var names = [
     "Alex",
-    "Angelo and Xavi",
+    ["Angelo and Xavi", "https://codehs.com/sandbox/id/final-project-LpOlCR?collaborate=-ODIXKCku480LTUpjNQo&filepath=*script.js"],
     "Ceci",
     "Damien",
     "Hassan, Steven, and Thomas",
@@ -46,8 +46,16 @@ function generateCard(names, imageName, altText, url)
 function makeCard() {
     if (idx >= names.length) return;
     var name = names[idx];
+    var fileUrl = "";
+    if (name.constructor === Array) {
+    	name = names[idx][0];
+    	fileUrl = names[idx][1];
+    }
     var file = name.replaceAll(" ","").replaceAll(",","").replace("and","");
-    var card = generateCard(name, file + ".png", name, file);
+    var imageName = file + ".png"
+    
+    if (fileUrl != "") file = fileUrl;
+    var card = generateCard(name, imageName, name, file);
     gridHtml += card; //not elegant, but it works
     
     idx++;
