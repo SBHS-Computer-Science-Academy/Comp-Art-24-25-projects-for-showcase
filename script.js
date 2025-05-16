@@ -1,14 +1,14 @@
 var names = [
     "Alex",
-    ["Angelo and Xavi", "https://space-invader-game-12369487.codehs.me/index.html"],
-    ["Ceci", "https://kxuntiwdzs-2909120183-lmdqptohah-t.codehs.me/index.html"],
+//     ["Angelo and Xavi", "https://space-invader-game-12369487.codehs.me/index.html"],
+//     ["Ceci", "https://kxuntiwdzs-2909120183-lmdqptohah-t.codehs.me/index.html"],
     "Damien",
-    ["David", "https://ngfiyygvgr-2621267445-lmdqptohah-t.codehs.me/index.html"],
+//     ["David", "https://ngfiyygvgr-2621267445-lmdqptohah-t.codehs.me/index.html"],
     "Hassan, Steven, and Thomas",
     "Hector",
     "Henry, Jayden, and Nico",
-    ["Henry, Ian, and Tristan", "https://final-project-12320783.codehs.me/index.html"],
-    ["Josh and Mia", "https://monkey-game-12372862.codehs.me/index.html"],
+//     ["Henry, Ian, and Tristan", "https://final-project-12320783.codehs.me/index.html"],
+//     ["Josh and Mia", "https://monkey-game-12372862.codehs.me/index.html"],
     "Itzel",
     "Jocelyn",
     "Karl",
@@ -20,7 +20,7 @@ var names = [
     "Marvin",
     "Mason",
     "Nash",
-    ["Nick", “https://ayukgttkuq-2911604671-lmdqptohah-t.codehs.me/index.html”],
+//     ["Nick", “https://ayukgttkuq-2911604671-lmdqptohah-t.codehs.me/index.html”],
     "Noah",
     "Shae"
 ];
