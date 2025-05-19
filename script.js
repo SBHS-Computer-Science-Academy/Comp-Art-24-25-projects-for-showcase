@@ -20,7 +20,7 @@ var names = [
     "Marvin",
     "Mason",
     "Nash",
-    ["Nick", “https://ayukgttkuq-2911604671-lmdqptohah-t.codehs.me/index.html”],
+    ["Nick", "https://ayukgttkuq-2911604671-lmdqptohah-t.codehs.me/index.html"],
     "Noah",
     "Shae"
 ];
