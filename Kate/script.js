@@ -47,7 +47,7 @@ function setup() {
    let myCanvas = createCanvas(700, 570);
   myCanvas.parent("myCanvas");
   
-  createConsole("lines");
+  //createConsole("lines");
   
   textAlign(CENTER, CENTER);
   angleMode(DEGREES);
